@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./CSS/boardStyle.css"/>
+    <script defer src="GameLogic.js"></script>
+    <link rel="icon" type="image/x-icon" href="/photos/839140-200.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+
+
+</head>    
+<title>Checkers</title>
+<body>
+<main>
+    <div class="red-turn-text">
+
+    </div>
+
+    <div class="desktop">
+        <div class="whitetext">
+            WHITE SQUAD
+
+        </div>
+        <p id="space"></p>
+        <div class="redtext">
+            RED SQUAD<br>
+
+        </div>
+    </div>
+    </div>
+    <div class="black-turn-text">
+
+    </div>
+    <table class = "board">
+        <div class="hud-item">
+            <p class="hud-prefix">
+                Red Score
+            </p>
+            <h1 class="hub-main-text" id="score">
+                12
+            </h1>
+
+            <p class="hud-prefix">
+                White Score
+            </p>
+            <h1 class="hub-main-text" id="score2">
+                12
+            </h1>
+        </div>
+        <tr>
+            <td class="empty"></td>
+            <td><p class="white" id="0"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="1"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="2"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="3"></p></td>
+        </tr>
+        <tr>
+            <td><p class="white" id="4"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="5"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="6"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="7"></p></td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td class="empty"></td>
+            <td><p class="white" id="8"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="9"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="10"></p></td>
+            <td class="empty"></td>
+            <td><p class="white" id="11"></p></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="empty"></td>
+            <td></td>
+            <td class="empty"></td>
+            <td></td>
+            <td class="empty"></td>
+            <td></td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td class="empty"></td>
+            <td></td>
+            <td class="empty"></td>
+            <td></td>
+            <td class="empty"></td>
+            <td></td>
+            <td class="empty"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><span class="red" id="12"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="13"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="14"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="15"></span></td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td class="empty"></td>
+            <td><span class="red" id="16"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="17"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="18"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="19"></span></td>
+        </tr>
+        <tr>
+            <td><span class="red" id="20"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="21"></span></td>
+            <td class="empty">
+            <td><span class="red" id="22"></span></td>
+            <td class="empty"></td>
+            <td><span class="red" id="23"></span></td>
+            <td class="empty"></td>
+        </tr>
+    </table>
+
+    <div class = "scoreboard">
+        <div>
+             <!--Add variable to add CSS pitures-->
+        </div>
+        <div>
+            <button class="button" role="Restart" onclick="refreshPage()">Restart</button>
+            <a href="index.html" button class="button">Quit</a></button>
+        </div>
+        <div>
+            <!--Add variable to add CSS pitures-->
+        </div>
+    </div>
+</main>
+</body>
+
+
+
+
+
+
+</html>
